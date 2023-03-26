@@ -5,6 +5,8 @@ plugins {
     id  'kotlin-android-extensions'
     id 'kotlin-android'
     id 'androidx.navigation.safeargs.kotlin'
+    id 'com.google.firebase.appdistribution'
+    id 'com.google.gms.google-services'
 
 }
 
@@ -26,7 +28,16 @@ android {
         dataBinding true
     }
     buildTypes {
+
+        debug {
+            firebaseAppDistribution {
+                groups = "QA"
+            }
+        }
+
         release {
+
+
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }

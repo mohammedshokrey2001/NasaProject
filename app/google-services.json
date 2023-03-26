@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "412978238358",
+    "project_id": "cicd-ac2ab",
+    "storage_bucket": "cicd-ac2ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412978238358:android:65ea19c1bbc3e43af183b7",
+        "android_client_info": {
+          "package_name": "com.example.nasaproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412978238358-7jsdihrivn5b6pl9b7a4pubb5egehf2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ8eWn52yXnsr-wuMP51IFvD6SF3q0Zn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412978238358-7jsdihrivn5b6pl9b7a4pubb5egehf2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
