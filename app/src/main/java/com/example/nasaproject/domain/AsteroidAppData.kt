@@ -11,3 +11,5 @@ data class AsteroidAppData(val id: Long, val codename: String, val closeApproach
                            val relativeVelocity: Double, val distanceFromEarth: Double,
                            val isPotentiallyHazardous: Boolean) : Parcelable
 
+//sd kasdflkas
+
